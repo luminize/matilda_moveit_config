@@ -1,0 +1,8 @@
+<launch>
+
+	<include file="$(find matilda_moveit_config)/launch/moveit_planning_execution.launch" />
+
+	<!-- start the listener2 node for getting trajectories into HAL-->
+	<node name="listener2" pkg="listener2" type="listener2.py" />
+	
+</launch>
