@@ -28,7 +28,7 @@ joint_limits:
     max_velocity: 1.57079632679
     has_acceleration_limits: true
     max_acceleration: 0.2
-  dummy_1:
+  joint_5:
     has_velocity_limits: false
-  dummy_2:
+  joint_6:
     has_velocity_limits: false
